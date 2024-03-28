@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Gitリポジトリをクローン
+git clone https://github.com/thenameissasi/roop-unleashed.git
+# config_colab.yamlをconfig.yamlに名前変更
+mv /content/roop-unleashed/config_colab.yaml /content/roop-unleashed/config.yaml
